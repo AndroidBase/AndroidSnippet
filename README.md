@@ -6,25 +6,12 @@
 
 ## Dependency
 
-Add repository
-
-```groovy
-
-    allprojects {
-     repositories {
-         // !!!! ADD THIS !!!!
-         maven{ url 'http://oss.sonatype.org/content/groups/public/' }
-     }
-    }
-
-```
-
 Add dependency
 
 ```groovy
 
     dependencies {
-        compile 'com.github.chenyoca:android-snippet:1.2-SNAPSHOT@aar'
+        compile 'com.github.yoojia:android-snippet:1.0@aar'
     }
 
 ```
